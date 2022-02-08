@@ -1,0 +1,20 @@
+  git --version
+  git config --list
+  git config --global user.name "shauliperets"
+  git config --list
+  git config --global user.email "shauliperets@gmail.com"
+  git config --list
+  git config --global init.defaultBranch main
+  git config --global init.defaultBranch master
+  git config --list
+  git init
+  git status
+  touch index.html style.css
+  git add --all
+  git status
+  git commit -m "intial load"
+  git status
+  git log
+  git status
+  git remote add origin https://github.com/shauliperets/new-repo.git
+  git push -u origin master
